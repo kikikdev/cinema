@@ -1,0 +1,26 @@
+CHECKLIST SUBMISSION
+[YES] Menggunakan standar ES6 dalam menuliskan kode JavaScript
+[YES] Terdapat minimal satu penerapan custom element
+[YES] Menggunakan Webpack sebagai module bundler (tahap production)
+[YES] Menggunakan Webpack sebagai environment dalam pengembangan proyek (tahap development)
+[YES] Memanfaatkan API dengan menggunakan konsep AJAX dalam menampilkan data yang dinamis pada aplikasi yang dibuat
+
+SARAN
+[YES] Menerapkan tampilan aplikasi yang menarik
+[  ] Menggunakan package pihak ke-3 yang di-install melalui package manager (bukan CDN), contoh : Lodash, Axios, JQuery
+[YES] Menuliskan kode dengan bersih dan konsisten
+[YES] Bereksplorasi pada penerapan webpack yaitu Menggunakan Loader atau Plugin di luar yang diajarkan pada modul, antara lain :
+1. use chaching techniques for allows sites to load faster with less unnecessary network traffic
+2. MiniCssExtractPlugin 
+[YES] Bereksplorasi pada penerapan webpack yaitu Menerapkan optimasi bundle seperti minifying atau split chunk, yaitu :
+1. use CssMinimizerWebpackPlugin
+2. use ImageMinimizerWebpackPlugin
+
+TIDAK SESUAI KRITERIA
+[NO] Tidak memanfaatkan Webpack sebagai development environment (gunakanlah webpack-dev-server).
+[NO] Proyek yang Anda kirim tidak berjalan dengan baik ketika reviewer mencoba untuk build pada tahap production.
+[NO] Menggunakan JavaScript framework seperti React, Angular, atau Vue.
+[NO] Mengirimkan proyek yang sama atau tidak terdapat perubahan yang signifikan seperti latihan yang diberikan pada kelas ini. Baik itu Club Finder, ataupun Dicoding Books.
+[NO] Menyertakan package yang berada pada node_modules ke dalam berkas ZIP. Karena akan membuat berkas ZIP memiliki ukuran yang besar dan fitur code review tidak dapat berfungsi.
+[NO] Menggunakan proyek peserta lain dalam mengirimkan submission.
+[NO] Tidak terdapat berkas package.json yang mengandung daftar dependencies yang proyek Anda gunakan.
